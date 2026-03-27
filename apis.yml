@@ -26,6 +26,8 @@ network:
     url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/apis.yml
   - name: Beamy
     url: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/apis.yml
+  - name: Binadox
+    url: https://raw.githubusercontent.com/api-evangelist/binadox/refs/heads/main/apis.yml
   - name: BetterCloud
     url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/apis.yml
   - name: Blissfully
@@ -40,6 +42,8 @@ network:
     url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/apis.yml
   - name: CloudEagle
     url: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/apis.yml
+  - name: CloudNuro
+    url: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/apis.yml
   - name: Corma
     url: https://raw.githubusercontent.com/api-evangelist/corma/refs/heads/main/apis.yml
   - name: DoControl
@@ -112,6 +116,8 @@ network:
     url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/apis.yml
   - name: Vertice
     url: https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml
+  - name: Whatfix
+    url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/apis.yml
   - name: Wing Security
     url: https://raw.githubusercontent.com/api-evangelist/wing-security/refs/heads/main/apis.yml
   - name: Zluri

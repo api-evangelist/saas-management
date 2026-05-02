@@ -1,0 +1,27 @@
+{
+  "description": "Example SaaS application record as tracked by a SaaS management platform",
+  "example": {
+    "id": "app_salesforce_prod",
+    "name": "Salesforce",
+    "vendor": "Salesforce, Inc.",
+    "category": "CRM",
+    "status": "active",
+    "discovered": false,
+    "discoveryMethod": "sso_logs",
+    "annualCost": 125000.00,
+    "licenseCount": 500,
+    "activeUserCount": 342,
+    "utilizationRate": 68.4,
+    "ssoEnabled": true,
+    "mfaEnabled": true,
+    "dataClassification": "confidential",
+    "owner": "Sales Operations",
+    "contractRenewalDate": "2025-06-30",
+    "integrations": [
+      "HubSpot",
+      "Slack",
+      "Gong",
+      "DocuSign"
+    ]
+  }
+}

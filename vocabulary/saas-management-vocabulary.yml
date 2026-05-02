@@ -1,0 +1,57 @@
+aid: saas-management
+name: SaaS Management Vocabulary
+description: >-
+  Vocabulary and terminology for the SaaS management market covering
+  discovery, license optimization, spend management, security posture,
+  and governance practices for enterprise SaaS portfolios.
+terms:
+  - term: SaaS Management Platform (SMP)
+    definition: >-
+      A software category for centralizing visibility and control over an
+      organization's SaaS application portfolio, including discovery,
+      license management, spend optimization, and security governance.
+  - term: Shadow IT
+    definition: >-
+      SaaS applications purchased or used by employees without formal IT
+      approval or visibility; a key driver for SaaS management platform adoption.
+  - term: License Optimization
+    definition: >-
+      The practice of right-sizing SaaS subscriptions by identifying unused
+      or underutilized licenses and removing or downgrading them to reduce costs.
+  - term: Utilization Rate
+    definition: >-
+      The percentage of purchased SaaS licenses actively used, typically
+      measured as active users (last 30 days) divided by total license count.
+  - term: SaaS Discovery
+    definition: >-
+      Automated detection of all SaaS applications in use across an
+      organization through browser extensions, SSO logs, expense data, email
+      scanning, or network traffic analysis.
+  - term: Spend Management
+    definition: >-
+      Centralized tracking and optimization of SaaS subscription costs
+      across an organization, including renewal negotiation and budget forecasting.
+  - term: Contract Renewal
+    definition: >-
+      The date when a SaaS subscription agreement expires and must be
+      renegotiated or canceled; tracked by SMPs to enable proactive negotiations.
+  - term: SaaS Security Posture Management (SSPM)
+    definition: >-
+      Automated monitoring and remediation of security misconfigurations
+      in SaaS applications, ensuring settings comply with security policies.
+  - term: Application Owner
+    definition: >-
+      The business stakeholder responsible for a SaaS application's budget,
+      usage governance, and vendor relationship within an organization.
+  - term: Joiner-Mover-Leaver (JML)
+    definition: >-
+      Identity lifecycle events (new hire, role change, departure) that
+      require SaaS access to be provisioned, modified, or deprovisioned.
+  - term: SaaS Sprawl
+    definition: >-
+      The uncontrolled proliferation of SaaS applications across an
+      organization, leading to redundancy, security risks, and wasted spend.
+  - term: API-First SaaS Management
+    definition: >-
+      SaaS management platforms that expose open APIs for integration with
+      ITSM, HRIS, PAM, and identity systems to automate provisioning and governance.

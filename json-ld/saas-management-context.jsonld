@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "saasm": "https://saas-management.apievangelist.com/terms/",
+
+    "SaaSApplication": {
+      "@id": "schema:SoftwareApplication",
+      "@type": "@id"
+    },
+    "id": "dcterms:identifier",
+    "name": "schema:name",
+    "vendor": {
+      "@id": "schema:brand",
+      "@type": "schema:Brand"
+    },
+    "category": "schema:applicationCategory",
+    "status": "schema:status",
+    "discovered": {
+      "@id": "saasm:discovered",
+      "@type": "xsd:boolean"
+    },
+    "discoveryMethod": "saasm:discoveryMethod",
+    "annualCost": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+    "licenseCount": {
+      "@id": "saasm:licenseCount",
+      "@type": "xsd:integer"
+    },
+    "activeUserCount": {
+      "@id": "schema:numberOfEmployees",
+      "@type": "xsd:integer"
+    },
+    "utilizationRate": {
+      "@id": "saasm:utilizationRate",
+      "@type": "xsd:decimal"
+    },
+    "ssoEnabled": {
+      "@id": "saasm:ssoEnabled",
+      "@type": "xsd:boolean"
+    },
+    "mfaEnabled": {
+      "@id": "saasm:mfaEnabled",
+      "@type": "xsd:boolean"
+    },
+    "dataClassification": "saasm:dataClassification",
+    "owner": {
+      "@id": "schema:department",
+      "@type": "xsd:string"
+    },
+    "contractRenewalDate": {
+      "@id": "schema:expires",
+      "@type": "xsd:date"
+    },
+    "integrations": {
+      "@id": "schema:softwareRequirements",
+      "@type": "@id"
+    }
+  }
+}

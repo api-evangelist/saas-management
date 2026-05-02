@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/saas-management/refs/heads/main/json-schema/saas-management-application-schema.json",
+  "title": "SaaS Application",
+  "description": "Schema for a SaaS application record as tracked by SaaS management platforms",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique application identifier",
+      "example": "app_salesforce_prod"
+    },
+    "name": {
+      "type": "string",
+      "description": "Application name",
+      "example": "Salesforce"
+    },
+    "vendor": {
+      "type": "string",
+      "description": "Software vendor name",
+      "example": "Salesforce, Inc."
+    },
+    "category": {
+      "type": "string",
+      "description": "Application category",
+      "example": "CRM"
+    },
+    "status": {
+      "type": "string",
+      "description": "Application lifecycle status",
+      "enum": ["active", "inactive", "deprecated", "under_review"],
+      "example": "active"
+    },
+    "discovered": {
+      "type": "boolean",
+      "description": "Whether application was auto-discovered (shadow IT) or manually added"
+    },
+    "discoveryMethod": {
+      "type": "string",
+      "description": "How the application was discovered",
+      "enum": ["browser_extension", "sso_logs", "expense_data", "email_scanning", "manual", "api_integration"],
+      "example": "sso_logs"
+    },
+    "annualCost": {
+      "type": "number",
+      "description": "Annual subscription cost in USD",
+      "example": 125000.00
+    },
+    "licenseCount": {
+      "type": "integer",
+      "description": "Total number of licenses",
+      "example": 500
+    },
+    "activeUserCount": {
+      "type": "integer",
+      "description": "Number of active users in the last 30 days",
+      "example": 342
+    },
+    "utilizationRate": {
+      "type": "number",
+      "description": "License utilization rate as percentage (0-100)",
+      "minimum": 0,
+      "maximum": 100,
+      "example": 68.4
+    },
+    "ssoEnabled": {
+      "type": "boolean",
+      "description": "Whether SSO is configured for this application"
+    },
+    "mfaEnabled": {
+      "type": "boolean",
+      "description": "Whether MFA is enforced"
+    },
+    "dataClassification": {
+      "type": "string",
+      "description": "Sensitivity level of data stored",
+      "enum": ["public", "internal", "confidential", "restricted"],
+      "example": "confidential"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Business owner or department",
+      "example": "Sales Operations"
+    },
+    "contractRenewalDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Contract renewal date",
+      "example": "2025-06-30"
+    },
+    "integrations": {
+      "type": "array",
+      "description": "Other applications this tool integrates with",
+      "items": {
+        "type": "string"
+      },
+      "example": ["HubSpot", "Slack", "Gong"]
+    }
+  },
+  "required": ["id", "name", "vendor", "status"]
+}

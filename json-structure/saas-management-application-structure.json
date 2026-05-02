@@ -1,0 +1,102 @@
+{
+  "name": "SaaS Application Record",
+  "description": "Structure of a SaaS application record as managed by SaaS management platforms",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "required": true,
+      "description": "Unique application identifier"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": "Application name"
+    },
+    {
+      "name": "vendor",
+      "type": "string",
+      "required": true,
+      "description": "Software vendor name"
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "required": false,
+      "description": "Application functional category (e.g., CRM, HRIS, Collaboration)"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "Lifecycle status: active, inactive, deprecated, under_review"
+    },
+    {
+      "name": "discovered",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether auto-discovered (shadow IT) or manually registered"
+    },
+    {
+      "name": "discoveryMethod",
+      "type": "string",
+      "required": false,
+      "description": "Discovery mechanism used"
+    },
+    {
+      "name": "annualCost",
+      "type": "number",
+      "required": false,
+      "description": "Annual subscription cost in USD"
+    },
+    {
+      "name": "licenseCount",
+      "type": "integer",
+      "required": false,
+      "description": "Total purchased licenses"
+    },
+    {
+      "name": "activeUserCount",
+      "type": "integer",
+      "required": false,
+      "description": "Active users in past 30 days"
+    },
+    {
+      "name": "utilizationRate",
+      "type": "number",
+      "required": false,
+      "description": "License utilization percentage (0-100)"
+    },
+    {
+      "name": "ssoEnabled",
+      "type": "boolean",
+      "required": false,
+      "description": "SSO configured for this application"
+    },
+    {
+      "name": "mfaEnabled",
+      "type": "boolean",
+      "required": false,
+      "description": "MFA enforced for access"
+    },
+    {
+      "name": "dataClassification",
+      "type": "string",
+      "required": false,
+      "description": "Data sensitivity level: public, internal, confidential, restricted"
+    },
+    {
+      "name": "owner",
+      "type": "string",
+      "required": false,
+      "description": "Business owner or department"
+    },
+    {
+      "name": "contractRenewalDate",
+      "type": "date",
+      "required": false,
+      "description": "Contract renewal date"
+    }
+  ]
+}

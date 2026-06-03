@@ -1,0 +1,189 @@
+meta:
+  name: SaaS Management
+  description: SaaS Management covers the tools, platforms, and practices used by
+    organizations to discover, manage, optimize, and secure their portfolio of SaaS
+    applications. The global SaaS management platform market is valued at approximately
+    $16.85 billion in 2026 and projected to reach $35.1 billion by 2035. Key capabilities
+    include SaaS discovery (shadow IT), license optimization, spend management, access
+    control, security posture management, and compliance monitoring. The average enterprise
+    manages over 300 SaaS applications, driving demand for centralized management
+    platforms with open APIs for integration with ITSM, HRIS, and identity providers.
+  tags:
+  - SaaS Management
+  - SaaS Discovery
+  - License Management
+  - Spend Management
+  - SaaS Security
+  - Shadow IT
+  portal: null
+  github: null
+  repo: saas-management
+services_tools:
+- name: Adaptive Shield
+  repo: https://github.com/api-evangelist/adaptive-shield
+  apisio: https://providers.apis.io/providers/adaptive-shield/
+- name: AppOmni
+  repo: https://github.com/api-evangelist/appomni
+  apisio: https://providers.apis.io/providers/appomni/
+- name: Augmentt
+  repo: https://github.com/api-evangelist/augmentt
+  apisio: https://providers.apis.io/providers/augmentt/
+- name: Axonius
+  repo: https://github.com/api-evangelist/axonius
+  apisio: https://providers.apis.io/providers/axonius/
+- name: Backupify
+  repo: https://github.com/api-evangelist/backupify
+  apisio: https://providers.apis.io/providers/backupify/
+- name: Beamy
+  repo: https://github.com/api-evangelist/beamy
+  apisio: https://providers.apis.io/providers/beamy/
+- name: Binadox
+  repo: https://github.com/api-evangelist/binadox
+  apisio: https://providers.apis.io/providers/binadox/
+- name: BetterCloud
+  repo: https://github.com/api-evangelist/bettercloud
+  apisio: https://providers.apis.io/providers/bettercloud/
+- name: Blissfully
+  repo: https://github.com/api-evangelist/blissfully
+  apisio: https://providers.apis.io/providers/blissfully/
+- name: Certero
+  repo: https://github.com/api-evangelist/certero
+  apisio: https://providers.apis.io/providers/certero/
+- name: Cleanshelf
+  repo: https://github.com/api-evangelist/cleanshelf
+  apisio: https://providers.apis.io/providers/cleanshelf/
+- name: Cledara
+  repo: https://github.com/api-evangelist/cledara
+  apisio: https://providers.apis.io/providers/cledara/
+- name: CloudAlly
+  repo: https://github.com/api-evangelist/cloudally
+  apisio: https://providers.apis.io/providers/cloudally/
+- name: CloudEagle
+  repo: https://github.com/api-evangelist/cloudeagle
+  apisio: https://providers.apis.io/providers/cloudeagle/
+- name: CloudNuro
+  repo: https://github.com/api-evangelist/cloudnuro
+  apisio: https://providers.apis.io/providers/cloudnuro/
+- name: Corma
+  repo: https://github.com/api-evangelist/corma
+  apisio: https://providers.apis.io/providers/corma/
+- name: DoControl
+  repo: https://github.com/api-evangelist/docontrol
+  apisio: https://providers.apis.io/providers/docontrol/
+- name: Druva
+  repo: https://github.com/api-evangelist/druva
+  apisio: https://providers.apis.io/providers/druva/
+- name: Flexera
+  repo: https://github.com/api-evangelist/flexera
+  apisio: https://providers.apis.io/providers/flexera/
+- name: G2 Track
+  repo: https://github.com/api-evangelist/g2-track
+  apisio: https://providers.apis.io/providers/g2-track/
+- name: Genuity
+  repo: https://github.com/api-evangelist/genuity
+  apisio: https://providers.apis.io/providers/genuity/
+- name: Grip Security
+  repo: https://github.com/api-evangelist/grip-security
+  apisio: https://providers.apis.io/providers/grip-security/
+- name: Intello
+  repo: https://github.com/api-evangelist/intello
+  apisio: https://providers.apis.io/providers/intello/
+- name: Ivanti
+  repo: https://github.com/api-evangelist/ivanti
+  apisio: https://providers.apis.io/providers/ivanti/
+- name: Josys
+  repo: https://github.com/api-evangelist/josys
+  apisio: https://providers.apis.io/providers/josys/
+- name: Keepit
+  repo: https://github.com/api-evangelist/keepit
+  apisio: https://providers.apis.io/providers/keepit/
+- name: LeanIX
+  repo: https://github.com/api-evangelist/leanix
+  apisio: https://providers.apis.io/providers/leanix/
+- name: Lumos
+  repo: https://github.com/api-evangelist/lumos
+  apisio: https://providers.apis.io/providers/lumos/
+- name: NachoNacho
+  repo: https://github.com/api-evangelist/nachonacho
+  apisio: https://providers.apis.io/providers/nachonacho/
+- name: Nudge Security
+  repo: https://github.com/api-evangelist/nudge-security
+  apisio: https://providers.apis.io/providers/nudge-security/
+- name: Obsidian Security
+  repo: https://github.com/api-evangelist/obsidian-security
+  apisio: https://providers.apis.io/providers/obsidian-security/
+- name: Oomnitza
+  repo: https://github.com/api-evangelist/oomnitza
+  apisio: https://providers.apis.io/providers/oomnitza/
+- name: OwnBackup
+  repo: https://github.com/api-evangelist/ownbackup
+  apisio: https://providers.apis.io/providers/ownbackup/
+- name: Productiv
+  repo: https://github.com/api-evangelist/productiv
+  apisio: https://providers.apis.io/providers/productiv/
+- name: Reco
+  repo: https://github.com/api-evangelist/reco
+  apisio: https://providers.apis.io/providers/reco/
+- name: SaaS Alerts
+  repo: https://github.com/api-evangelist/saas-alerts
+  apisio: https://providers.apis.io/providers/saas-alerts/
+- name: SaaSHub
+  repo: https://github.com/api-evangelist/saashub
+  apisio: https://providers.apis.io/providers/saashub/
+- name: Saasment
+  repo: https://github.com/api-evangelist/saasment
+  apisio: https://providers.apis.io/providers/saasment/
+- name: Sastrify
+  repo: https://github.com/api-evangelist/sastrify
+  apisio: https://providers.apis.io/providers/sastrify/
+- name: Snow Software
+  repo: https://github.com/api-evangelist/snow-software
+  apisio: https://providers.apis.io/providers/snow-software/
+- name: Spanning
+  repo: https://github.com/api-evangelist/spanning
+  apisio: https://providers.apis.io/providers/spanning/
+- name: Spendflo
+  repo: https://github.com/api-evangelist/spendflo
+  apisio: https://providers.apis.io/providers/spendflo/
+- name: Spin.AI
+  repo: https://github.com/api-evangelist/spin-ai
+  apisio: https://providers.apis.io/providers/spin-ai/
+- name: Substly
+  repo: https://github.com/api-evangelist/substly
+  apisio: https://providers.apis.io/providers/substly/
+- name: Torii
+  repo: https://github.com/api-evangelist/torii
+  apisio: https://providers.apis.io/providers/torii/
+- name: Trelica
+  repo: https://github.com/api-evangelist/trelica
+  apisio: https://providers.apis.io/providers/trelica/
+- name: Tropic
+  repo: https://github.com/api-evangelist/tropic
+  apisio: https://providers.apis.io/providers/tropic/
+- name: Valence Security
+  repo: https://github.com/api-evangelist/valence-security
+  apisio: https://providers.apis.io/providers/valence-security/
+- name: Varonis
+  repo: https://github.com/api-evangelist/varonis
+  apisio: https://providers.apis.io/providers/varonis/
+- name: Vendr
+  repo: https://github.com/api-evangelist/vendr
+  apisio: https://providers.apis.io/providers/vendr/
+- name: Vertice
+  repo: https://github.com/api-evangelist/vertice
+  apisio: https://providers.apis.io/providers/vertice/
+- name: Whatfix
+  repo: https://github.com/api-evangelist/whatfix
+  apisio: https://providers.apis.io/providers/whatfix/
+- name: Wing Security
+  repo: https://github.com/api-evangelist/wing-security
+  apisio: https://providers.apis.io/providers/wing-security/
+- name: Zluri
+  repo: https://github.com/api-evangelist/zluri
+  apisio: https://providers.apis.io/providers/zluri/
+- name: Zylo
+  repo: https://github.com/api-evangelist/zylo
+  apisio: https://providers.apis.io/providers/zylo/
+features: []
+use_cases: []
+integrations: []

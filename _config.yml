@@ -1,0 +1,23 @@
+title: SaaS Management
+description: SaaS Management covers the tools, platforms, and practices used by organizations
+  to discover, manage, optimize, and secure their portfolio of SaaS applications.
+  The global SaaS management platform market is valued at approximately $16.85 billion
+  in 2026 and projected to reach $35.1 billion by 2035. Key capabilities include SaaS
+  discovery (shadow IT), license optimization, spend management, access control, security
+  posture management, and compliance monitoring. The average enterprise manages over
+  300 SaaS applications, driving demand for centralized management platforms with
+  open APIs for integration with ITSM, HRIS, and identity providers.
+url: https://saas-management.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

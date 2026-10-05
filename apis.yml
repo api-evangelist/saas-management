@@ -1,5 +1,6 @@
 aid: saas-management
 name: SaaS Management
+kind: topic
 description: >-
   SaaS Management covers the tools, platforms, and practices used by
   organizations to discover, manage, optimize, and secure their portfolio of

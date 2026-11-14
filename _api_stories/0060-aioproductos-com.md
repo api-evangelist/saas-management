@@ -1,7 +1,7 @@
 ---
-title: 'MCP Security: Are MCP Servers Safe? A Decision Procedure'
-link: https://aioproductos.com/blog/are-mcp-servers-safe
-published: '2026-08-12'
+title: Which Product Management Tools Have MCP Servers? (2026)
+link: https://aioproductos.com/blog/product-management-tools-mcp-servers
+published: '2026-08-25'
 provider: aioproductos-com
 repo: https://github.com/api-evangelist/aioproductos-com
 domain: aioproductos.com
